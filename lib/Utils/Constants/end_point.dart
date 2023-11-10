@@ -1,0 +1,11 @@
+const String baseUrl = 'http://192.168.1.14:5001'; //ghar
+//const String baseUrl = 'http://192.168.100.11:5001';//apna office
+//const String baseUrl = 'http://192.168.100.52:5001'; //Ecomkey office
+const String loginEndpoint = '/v1/user/Login';
+const String registerEndpoint = '/v1/user/register';
+const String myProfileEndpoint = '/v1/user/myProfile';
+const String updateProfileEndpoint = '/v1/user/updateProfile';
+const String getAllNotesEndPoint = "/v1/notes/getAllNote";
+const String addNotesEndPoint = "/v1/notes/addNotes";
+const String updateNoteEndPoint = '/v1/notes/updateNote';
+const String deleteNoteEndPoint = "/v1/notes/deleteNote";
